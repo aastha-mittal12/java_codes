@@ -4,6 +4,10 @@ Input: [2, 4, 5, 5, 5, 5, 5]
 Output: 5
 
 CODE:
+
+
+
+
 import java.util.HashMap;
 import java.util.Map;
 
