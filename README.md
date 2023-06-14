@@ -10,7 +10,6 @@ CODE:
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class MajorityElement {
     public static int findMajorityElement(int[] nums) {
         Map<Integer, Integer> countMap = new HashMap<>();
@@ -21,10 +20,8 @@ public class MajorityElement {
                 return num;
             }
         }
-
         return -1;
     }
-
     public static void main(String[] args) {
         int[] nums = {2, 4, 5, 5, 5, 5, 5};
         int majorityElement = findMajorityElement(nums);
